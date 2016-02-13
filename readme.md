@@ -1,3 +1,4 @@
 Wow, you actually are looking at my loveliness! Hi.
 
-And now for something completely different: [http://tinyurl.com/hrocnmo]
+And now for something completely different:
+![Beautiful Picture](http://tinyurl.com/hrocnmo "Happy Valentine's")
