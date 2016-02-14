@@ -2682,11 +2682,12 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			padding-top: 4em;
 		}
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 0.75em 0 0;
+				padding: 0 1.5em 0 0;
 			}
 
 				ul.icons li:last-child {
@@ -2702,6 +2703,7 @@
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						font-family: FontAwesome;
+						font-size: 2.25em;
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
@@ -3225,6 +3227,10 @@
 			width: 75em;
 		}
 
+		.wrapper > .inner > .social {
+			font-size: 2em;
+		}
+
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
@@ -3523,7 +3529,7 @@
 		}
 
 	#footer > .inner .menu {
-		font-size: 0.8em;
+		font-size: 1.4em;
 		color: rgba(255, 255, 255, 0.15);
 	}
 
