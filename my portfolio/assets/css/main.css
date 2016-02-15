@@ -3240,8 +3240,13 @@
 			width: 75em;
 		}
 
-		.wrapper > .inner > .social {
-			font-size: 2em;
+		.wrapper > .inner  .social {
+			padding-top: 8em;
+			font-size: 1.25em;
+		}
+
+		.wrapper > .inner > .style1 > .contact-spacing {
+			padding-top: 12em;
 		}
 
 			@media screen and (max-width: 1680px) {
