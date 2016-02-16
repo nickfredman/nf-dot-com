@@ -2602,8 +2602,9 @@
 		}
 
 		.sidebar-logo {
-			max-height: 3em;
+			display: none;
 		}
+
 
 		.image img {
 			border-radius: 0.25em;
@@ -2652,8 +2653,9 @@
 
 			@media screen and (max-width: 736px) {
 				.image.logo {
-					max-height: 15%;
+					max-height: 12%;
 					margin-left: 0;
+					padding-top: .8em;
 				}
 			}
 
@@ -3440,6 +3442,7 @@
 			-ms-flex: 1;
 			flex: 1;
 			text-align: right;
+			padding: .5em;
 		}
 
 			#header > nav > ul {
@@ -3481,7 +3484,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 1em 2em;
+				padding: 1em;
 			}
 
 
