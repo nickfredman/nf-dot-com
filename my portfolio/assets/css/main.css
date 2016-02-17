@@ -2385,6 +2385,7 @@
 			box-shadow: 0 0 0 1px #ffffff;
 		}
 
+
 	.select-wrapper {
 		text-decoration: none;
 		display: block;
@@ -2670,7 +2671,7 @@
 		}
 
 		.hi-res {
-			width: 60%;
+			width: 80%;
 		}
 
 			@media screen and (max-width: 736px) {
