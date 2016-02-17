@@ -3,7 +3,7 @@
 /*
 	Based on Hyperspace by HTML5 UP
 	See the original at http://html5up.net/hyperspace
-	modified by @nickfredman
+	Modified by @nickfredman
 */
 
 /* Reset */
@@ -1698,6 +1698,10 @@
 		margin: 0 0 2em 0;
 	}
 
+	.spacer {
+		height: 4em;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Proxima Nova Soft", Arial, Helvetica, sans-serif;
 		color: #ffffff;
@@ -1753,6 +1757,7 @@
 
 	h5 {
 		font-size: 0.8em;
+		font-weight: normal;
 	}
 
 	h6 {
@@ -1850,6 +1855,13 @@
 
 	.align-right {
 		text-align: right;
+	}
+
+	iframe {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
 	}
 
 /* Box */
@@ -2650,6 +2662,16 @@
 			.image.main img {
 				width: 100%;
 			}
+
+		.center-image {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.hi-res {
+			width: 60%;
+		}
 
 			@media screen and (max-width: 736px) {
 				.image.logo {
