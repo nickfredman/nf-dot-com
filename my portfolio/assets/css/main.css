@@ -1700,6 +1700,7 @@
 
     .spacer {
         height: 4em;
+        clear: both;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -2671,7 +2672,7 @@
         }
 
         .hi-res {
-            width: 80%;
+            max-width: 100%;
         }
 
             @media screen and (max-width: 736px) {
@@ -3071,6 +3072,10 @@
             display: block;
             position: relative;
             width: 25em;
+        }
+
+        .spotlights > section > .image .hi-res {
+        	max-width: 80%;
         }
 
             .spotlights > section > .image img {
@@ -3579,6 +3584,12 @@
 
     #header + #wrapper > .wrapper > .inner {
         margin: 0 auto;
+    }
+
+    #main {
+    	max-width: 50%;
+    	margin-left: auto;
+    	margin-right: auto;
     }
 
 /* Footer */
