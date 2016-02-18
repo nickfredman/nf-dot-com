@@ -2755,6 +2755,14 @@
                         display: none;
                     }
 
+            @media screen and (max-width: 480px) {
+                ul.icons.social > li > a {
+                    font-size: 0.5em;
+                }
+            }
+
+
+
         ul.actions {
             cursor: default;
             list-style: none;
@@ -3591,6 +3599,41 @@
     	margin-left: auto;
     	margin-right: auto;
     }
+
+    @media screen and (max-width: 1280px) {
+
+        #main {
+            max-width: 60%;
+        }
+
+    }
+
+    @media screen and (max-width: 920px) {
+
+        #main {
+            max-width: 70%;
+        }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        #main {
+            max-width: 80%;
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+        #main {
+            max-width: 100%;
+        }
+
+    }
+
+
+
 
 /* Footer */
 
