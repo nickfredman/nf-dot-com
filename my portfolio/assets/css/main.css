@@ -1759,6 +1759,8 @@
     h5 {
         font-size: 0.8em;
         font-weight: normal;
+        color: rgba(255, 255, 255, .5);
+
     }
 
     h6 {
@@ -3195,6 +3197,8 @@
 
                 .spotlights > section > .content {
                     width: 100%;
+                	text-align: center;
+
                 }
 
                 .spotlights > section.inactive > .content > .inner, body.is-loading .spotlights > section > .content > .inner {
@@ -4043,9 +4047,13 @@
 
             @media screen and (max-width: 980px) {
 
+                #intro {
+                	text-align: center;
+                }
                 #intro p br {
                     display: none;
                 }
+
 
             }
 
