@@ -2682,6 +2682,10 @@
             max-width: 100%;
         }
 
+        .shadow {
+        	box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.2);
+        }
+
             @media screen and (max-width: 736px) {
                 .image.logo {
                     max-height: 12%;
@@ -3477,7 +3481,7 @@
             border: 0;
             color: #ffffff;
             display: block;
-            font-size: 1.25em;
+            font-size: 1em;
             font-weight: bold;
         }
 
@@ -3512,7 +3516,7 @@
                         border: 0;
                         color: rgba(255, 255, 255, 0.35);
                         display: inline-block;
-                        font-size: 0.8em;
+                        font-size: 0.6em;
                         font-weight: bold;
                         letter-spacing: 0.25em;
                         text-transform: uppercase;
