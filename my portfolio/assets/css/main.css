@@ -1622,7 +1622,7 @@
     }
 
     body {
-        background: #4292a6;
+        background: #4284bd;
     }
 
         body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2618,8 +2618,9 @@
     }
 
         .image.logo.left{
-            max-height: 6em;
+            max-height: 8em;
             margin-left: 1em;
+            margin-bottom: 0;
         }
 
         .sidebar-logo {
@@ -2690,7 +2691,7 @@
                 .image.logo {
                     max-height: 12%;
                     margin-left: 0;
-                    padding-top: .8em;
+                    padding-top: .4em;
                 }
             }
 
@@ -3472,7 +3473,7 @@
         display: -webkit-flex;
         display: -ms-flex;
         display: flex;
-        background-color: #295666;
+        background-color: #284F71;
         cursor: default;
         padding: 1.75em 2em;
     }
